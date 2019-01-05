@@ -1,0 +1,197 @@
+/* FONTES */
+@font-face {
+    font-family: 'Poppins-Light';
+    src:  url('../fonts/Poppins-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins-Medium';
+    src:  url('../fonts/Poppins-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins-Regular';
+    src:  url('../fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins-SemiBold';
+    src:  url('../fonts/Poppins-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins-Bold';
+    src:  url('../fonts/Poppins-Bold.ttf');
+}
+/* *************************************************** */
+
+html{
+    background-color: black;
+}
+
+body::-webkit-scrollbar {
+    width: 0.5em;
+}
+ 
+body::-webkit-scrollbar-track {
+    background-color: #000;
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: #e41358;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #ff2061;
+}
+.title-section-bold{
+    font-family: Poppins-Bold;
+    text-transform: uppercase;
+    color: #ff2069;
+    font-size: 2.5rem;
+
+}
+
+.title-section-light-ss{
+    font-family: Poppins-Light;
+    text-transform: uppercase;
+    color: #ff2069;
+    font-size: 2.5rem;
+}
+
+.title-section-light{
+    font-family: Poppins-Light;
+    text-transform: uppercase;
+    color: #ff2069;
+    font-size: 3.5rem;
+}
+
+.title-section-shadow{
+    font-family: Poppins-Light;
+    text-transform: uppercase;
+    color: #292929;
+    font-size: 4.5rem;
+    z-index: -1;
+    position: relative;
+    margin-top: -80px;
+}
+
+.pg-text {
+    font-family: Poppins-Light; 
+    color: #c5c5c5;
+    font-size: 1.33rem;
+    text-transform: uppercase;
+}
+
+.pg-text-case {
+    font-family: Poppins-Light; 
+    color: #fff;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    align-self: center;
+}
+
+.ss-margin{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.text-title-ss {
+    align-self: center;
+}
+
+.title-top {
+    font-family: Poppins-Bold;
+    color: #fff;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+}
+
+.subtitle-top{
+    font-family: Poppins-Light;
+    color: #fff;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.square {
+    border: 1px solid #fff;
+    height: 350px;
+    width: 350px;
+}
+
+.uk-modal-dialog {
+    background-color: #000;
+}
+
+.uk-modal-close-full{
+    background: #000;
+}
+
+.uk-close {
+    color: #fff;
+}
+
+.uk-close:hover {
+    color: #ff2069;
+}
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+ 
+#particles-js {
+    width: 100%;
+    height: 100%;
+}
+
+.picture1 {
+   width:100%; /*width of your image*/
+   height:100%; /*height of your image*/
+   background-image:url('../img/bg-top.png');
+   
+}
+
+input {
+    background-color: black;
+}
+
+.starkeSolutions{
+    color: currentColor;
+}
+
+.negrito {
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.autoMargin{
+    text-align: -webkit-center;
+}
+.alin-text{
+    text-align: left;
+}
+.marginAuto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.backColor{
+    background-color: black;
+    color: darkgray;
+}
+.Widh-contato{
+    width: 60%;
+    text-transform: uppercase;
+}
+.alinhar-client{
+    text-align: center;
+}
+.footer {
+    text-align: -webkit-center;
+    text-transform: uppercase;
+}
+.button{
+    color: darkgray;
+    border-color: #f0506e;
+}
